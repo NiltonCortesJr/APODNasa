@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>APOD Nasa-Imagem do Dia</title>
+        <script defer src="index.js"> </script>
+        <link rel="stylesheet" href="index.css">
+
+    </head>
+
+    <body>
+        <h1> Se encante com a imagem do dia fornecida pela NASA! </h1>
+        <p>Entre neste mundo onde a imagem fala por si só! Para viver essa experiência, </p>
+        <p>entre com uma data posterior ao dia 20/06/1995 e desfrute destas lindas imagens!</p>
+        <p>Entre com a data:</p>
+
+        <div class="EscolhaData">
+            <input type="date" min="1995-06-20" id="data"></input>
+        </div>
+
+        <div id="container">
+            <img id="imagem-dia">
+            <iframe id="video-dia"></iframe>
+        </div>
+
+        <div class="botaors">
+            <button>Pesquisar</button>
+        </div>
+
+        <div class="descricao">
+            <p>Sobre a imagem:</p>
+            <p id="sobre-img"></p>
+        </div>
+
+    </body>
+    
+    <footer>
+        2021 - Copyright - Site para fins educativos - Nilton JR
+    </footer>
+
+</html>

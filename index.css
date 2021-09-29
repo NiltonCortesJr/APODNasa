@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+html{
+    background-color: rgb(0, 0, 0);
+}
+body {
+    background-image: url(space.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Syne Mono', monospace;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    color: rgb(240, 107, 202);
+    background: rgb(51, 2, 131);
+    background: radial-gradient(circle, rgba(51, 2, 131, 0.950315160243785) 0%, rgba(203, 5, 199, 0.13518910982361698) 43%, rgba(169, 7, 232, 0.32566530029980745) 100%);
+    background-size: auto;
+    border-radius: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0) ;
+}
+
+p {
+    font-family: 'Syne Mono', monospace;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0) ;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    color: rgba(250, 193, 250, 0.911);
+    background: rgb(215, 107, 227);
+    background: radial-gradient(circle, rgba(154, 58, 165, 0.95) 0%, rgba(214, 131, 244, 0.14359247116815477) 43%, rgba(235, 216, 242, 0.2752451322325805) 100%);
+    border-radius: 15px;
+    text-align: center;
+}
+
+input {
+    font-family: 'Syne Mono', monospace;
+    font-size: 1.1em;
+    margin: auto;
+    width: 200px;
+    height: 35px;
+}
+
+.EscolhaData {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+img {
+    height: 400px;
+    margin: auto;
+    border-radius: 3%;
+    border-style: solid;
+    border-color: hotpink;
+    box-shadow: lavender;
+}
+
+#video-dia {
+    margin: auto;
+    width: 660px;
+    height: 370px;
+}
+
+button {
+    font-family: 'Syne Mono', monospace;
+    font-size: 1.1em;
+    padding: 1.5%;
+    background-image: linear-gradient(to bottom, #e59ae7, #b65bae, #ac129f, #8b0680);
+    border-radius: 1em;
+}
+
+button:hover {
+    border-style: solid;
+    border: 10px;
+    border-color: rgb(104, 48, 56);
+    border-collapse: collapse;
+    padding: 2%;
+    border-radius: 1em;
+    transition: 800ms;
+}
+
+.botaors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+footer {
+    font-family: 'Syne Mono', monospace;
+    font-size: 1.4em;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0) ;
+    display: flex;
+    justify-content: center;
+    color: rgba(209, 126, 198, 0.911);
+    background: rgb(79, 30, 85);
+    background: radial-gradient(circle, rgba(154, 58, 165, 0.95) 0%, rgba(214, 131, 244, 0.14359247116815477) 43%, rgba(235, 216, 242, 0.2752451322325805) 100%);
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    }
+    h1{
+        font-size: 2em;
+    }
+    p{
+        font-size: 1em;
+    }
+    #container{
+    display: flex;
+    align-content: center;
+    }
+    #imagem-dia {
+        height: 200px;
+        min-width: 280px;
+        margin: auto;
+    }
+    #video-dia {
+        height: 200px;
+        min-width: 280px;
+        margin: auto;
+    }
+    
+}
